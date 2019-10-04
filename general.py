@@ -65,7 +65,7 @@ with open('names.txt', 'r', encoding='utf-8') as f:
         names.append(line[:-1])
 
 shuffle(names)
-names = names[:100]
+names = names[:10]
 for i in names:
     graph.add(Node(i))
 graph = random_edge(graph)
